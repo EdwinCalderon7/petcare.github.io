@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Care</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Pet Care</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Bienvenidos a Pet Care</h1>
+            <p class="lead">¡Cuidado profesional para tus amigos peludos mientras no estás!</p>
+            <img src="assets/images/pets-care.jpg" alt="Mascotas" class="img-fluid rounded mt-3">
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>Nosotros</h2>
+            <img src="assets/images/pets.jpg" alt="Nosotros" class="img-fluid rounded mt-3">
+            <p class="mt-3">
+                En Pet Care, entendemos lo importantes que son tus mascotas para ti.
+                Nuestra misión es brindar un ambiente amoroso y seguro para tus amigos peludos
+                mientras estás ocupado o de viaje. ¡Confía en nosotros para mantener esas colas felices!
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Servicios</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/images/pets-walking.jpg" class="card-img-top" alt="Paseo de perros">
+                        <div class="card-body">
+                            <h5 class="card-title">Paseo de perros</h5>
+                            <p class="card-text">Paseos diarios para mantener a tu perro feliz y saludable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/images/pets-home.jpg" class="card-img-top" alt="Cuidado en casa">
+                        <div class="card-body">
+                            <h5 class="card-title">Cuidado en casa</h5>
+                            <p class="card-text">Atención personalizada en tu hogar para las necesidades de tu mascota.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/images/pets-playing.jpg" class="card-img-top" alt="Tiempo de juego">
+                        <div class="card-body">
+                            <h5 class="card-title">Tiempo de juego</h5>
+                            <p class="card-text">Diversión y juegos para mantener entretenida a tu mascota.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2>Contacto</h2>
+            <img src="assets/images/pets-contact.jpg" alt="Contacto" class="img-fluid rounded mt-3">
+            <p class="mt-3">¿Tienes preguntas o quieres reservar nuestros servicios? ¡Escríbenos!</p>
+            <form class="mt-4">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Tu Nombre">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Tu Correo">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="3" placeholder="Tu Mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2024 Pet Care. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
